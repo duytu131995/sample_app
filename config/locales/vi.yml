@@ -1,0 +1,5 @@
+vi:
+  hello: "Xin chào"
+  test:
+    index:
+      title: "Đây là trang Test"

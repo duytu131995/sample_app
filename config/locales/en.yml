@@ -1,0 +1,5 @@
+en:
+  hello: "Hello world"
+  test:
+    index:
+      title: "This is Test page"
