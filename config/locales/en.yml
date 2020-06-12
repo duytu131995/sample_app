@@ -1,5 +1,12 @@
 en:
   hello: "Hello world"
-  test:
-    index:
-      title: "This is Test page"
+  title_page: "Ruby on Rails Tutorial Sample App"
+  home: "Home"
+  help: "Help"
+  en: "English"
+  vi: "Vietnamese"
+  static_pages:
+    home:
+      title: "This is home page"
+    help:
+      title: "This is help page"
