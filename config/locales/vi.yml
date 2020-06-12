@@ -1,5 +1,12 @@
 vi:
   hello: "Xin chào"
-  test:
-    index:
-      title: "Đây là trang Test"
+  title_page: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  home: "Trang chủ"
+  help: "Trợ giúp"
+  en: "Tiếng anh"
+  vi: "Tiếng việt"
+  static_pages:
+    home:
+      title: "Đây là trang chủ"
+    help:
+      title: "Đây là trang trợ giúp"
