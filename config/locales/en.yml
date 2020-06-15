@@ -1,12 +1,32 @@
 en:
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
+  name_app: "Sample app"
   home: "Home"
   help: "Help"
   en: "English"
   vi: "Vietnamese"
+  sign_in: "Sign in"
+  sign_up: "Sign up"
+  sign_out: "Sign out"
+  of_author:
+    text: "The %{link1} by %{link2}"
+    link1: "Ruby on Rails Tutorial"
+    link2: "Michael Hartl"
+  about: "About"
+  contact: "Contact"
+  news: "News"
   static_pages:
     home:
       title: "This is home page"
+      welcome: "Welcome to the Sample App"
+      alt_logo: "Rails logo"
     help:
       title: "This is help page"
+    contact:
+      title: "This is contact page"
+    about:
+      title: "This is about page"
+  users:
+    new:
+      title: "This will be a signup page for new users."

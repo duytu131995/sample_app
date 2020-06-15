@@ -1,12 +1,32 @@
 vi:
   hello: "Xin chào"
   base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  name_app: "Ứng dụng mẫu"
   home: "Trang chủ"
   help: "Trợ giúp"
   en: "Tiếng anh"
   vi: "Tiếng việt"
+  sign_in: "Đăng nhập"
+  sign_up: "Đăng ký"
+  sign_out: "Đăng xuất"
+  of_author:
+    text: "%{link1} của %{link2}"
+    link1: "Hướng dẫn về Ruby on rails"
+    link2: "Michael Hartl"
+  about: "Về chúng tôi"
+  contact: "Liên hệ với chúng tôi"
+  news: "Tin tức"
   static_pages:
     home:
       title: "Đây là trang chủ"
+      welcome: "Chào mừng bạn đến với ứng dụng mẫu"
+      alt_logo: "Rails logo"
     help:
       title: "Đây là trang trợ giúp"
+    contact:
+      title: "Đây là trang liên hệ"
+    about:
+      title: "Đây là trang thông tin của về chúng tôi"
+  users:
+    news:
+      title: "Đây sẽ là một trang đăng ký cho người dùng mới."
