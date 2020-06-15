@@ -4,5 +4,8 @@ Rails.application.routes.draw do
 
     get "home", to: "static_pages#home", as: "home"
     get "help", to: "static_pages#help", as: "help"
+    get "contact", to: "static_pages#contact", as: "contact"
+    get "about", to: "static_pages#about", as: "about"
+    get "sign_up", to: "users#new", as: "sign_up"
   end
 end

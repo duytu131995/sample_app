@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= sanitize t("of_author.text",
+          link1: link_to(t("of_author.link1"), "https://www.railstutorial.org/"),
+          link2: link_to(t("of_author.link2"), "https://www.michaelhartl.com/")) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("about"), about_path, target: "_blank" %></li>
+      <li><%= link_to t("contact"), contact_path, target: "_blank" %></li>
+      <li><%= link_to t("news"), "https://news.railstutorial.org/", target: "_blank" %></li>
+    </ul>
+  </nav>
+</footer>
