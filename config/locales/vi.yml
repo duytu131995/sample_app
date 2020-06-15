@@ -1,6 +1,6 @@
 vi:
   hello: "Xin chào"
-  title_page: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   home: "Trang chủ"
   help: "Trợ giúp"
   en: "Tiếng anh"
