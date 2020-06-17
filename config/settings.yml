@@ -1,6 +1,8 @@
 email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 user:
-  name_r:
+  name:
     maximum_length: 50
   email:
     maximum_length: 255
+gravatar:
+  size: 80
