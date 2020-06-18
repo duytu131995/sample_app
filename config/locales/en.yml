@@ -1,15 +1,17 @@
 en:
   hello: "Hello world"
+  en: "English"
+  vi: "Vietnamese"
   base_title: "Ruby on Rails Tutorial Sample App"
   name_app: "Sample app"
   home: "Home"
   help: "Help"
-  en: "English"
-  vi: "Vietnamese"
-  sign_in: "Sign in"
+  login: "Login"
+  logout: "Logout"
   sign_up: "Sign up"
-  sign_out: "Sign out"
   error: "error"
+  profile: "Profile"
+  settings: "Settings"
   of_author:
     text: "The %{link1} by %{link2}"
     link1: "Ruby on Rails Tutorial"
@@ -34,6 +36,7 @@ en:
         text: "The form contains"
       title: "Sign up"
       name: "Name"
+      email: "Email"
       password: "Password"
       password_confirmation: "Confirmation"
       submit: "Create my account"
@@ -59,3 +62,15 @@ en:
               blank: "can't be blank"
             password_confirmation:
               confirmation: "doesn't match Password"
+  sessions:
+    create:
+      danger: "Invalid email/password combination"
+      success: "Login successfully"
+    destroy:
+      success: "Logout successfully"
+    new:
+      email: "Email"
+      password: "Password"
+      submit: "Log in"
+      new_user: "New user?"
+      sign_up: "Sign up now!"

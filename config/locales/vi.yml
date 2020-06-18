@@ -1,15 +1,17 @@
 vi:
   hello: "Xin chào"
+  en: "Tiếng anh"
+  vi: "Tiếng việt"
   base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   name_app: "Ứng dụng mẫu"
   home: "Trang chủ"
   help: "Trợ giúp"
-  en: "Tiếng anh"
-  vi: "Tiếng việt"
-  sign_in: "Đăng nhập"
+  login: "Đăng nhập"
+  logout: "Đăng xuất"
   sign_up: "Đăng ký"
-  sign_out: "Đăng xuất"
   error: "Lỗi"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
   of_author:
     text: "%{link1} của %{link2}"
     link1: "Hướng dẫn về Ruby on rails"
@@ -34,6 +36,7 @@ vi:
         text: "Biểu mẫu chứa"
       title: "Đăng ký"
       name: "Tên"
+      email: "Địa chỉ Email"
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
       submit: "Tạo tài khoản"
@@ -59,3 +62,15 @@ vi:
               blank: "Mật khẩu không thể để trống"
             password_confirmation:
               confirmation: "Xác nhận mật khẩu không khớp với Mật khẩu"
+  sessions:
+    create:
+      danger: "Email hoặc mật khẩu không hợp lệ"
+      success: "Đăng nhập thành công"
+    destroy:
+      success: "Đăng xuất thành công"
+    new:
+      email: "Địa chỉ Email"
+      password: "Mật khẩu"
+      submit: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      sign_up: "Đăng ký tài khoản ngay bây giờ!"
