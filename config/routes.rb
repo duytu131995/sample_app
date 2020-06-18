@@ -6,6 +6,8 @@ Rails.application.routes.draw do
     get "help", to: "static_pages#help", as: "help"
     get "contact", to: "static_pages#contact", as: "contact"
     get "about", to: "static_pages#about", as: "about"
-    get "sign_up", to: "users#new", as: "sign_up"
+    get "sign_up", to: "users#new"
+    post "sign_up", to: "users#create"
+    resources :users, only: :show
   end
 end
