@@ -12,6 +12,7 @@ vi:
   error: "Lỗi"
   profile: "Hồ sơ"
   settings: "Cài đặt"
+  users_header: "Người dùng"
   of_author:
     text: "%{link1} của %{link2}"
     link1: "Hướng dẫn về Ruby on rails"
@@ -35,16 +36,32 @@ vi:
       count_error:
         text: "Biểu mẫu chứa"
       title: "Đăng ký"
-      name: "Tên"
-      email: "Địa chỉ Email"
-      password: "Mật khẩu"
-      password_confirmation: "Xác nhận mật khẩu"
-      submit: "Tạo tài khoản"
+      button_text: "Tạo tài khoản"
     create:
       success: "Đăng ký thành công thành công"
       danger: "Đăng ký tài khoản thất bại"
     show:
       notice_id: "Người dùng không tồn tại"
+    update:
+      success: "Hồ sơ cá nhân đã cập nhật"
+      danger: "Cập nhật thất bại"
+    destroy:
+      success: "Đã xóa người dùng"
+      danger: "Xóa người dùng không thành công"
+    edit:
+      button_text: "Lưu thay đổi"
+      title: "Cập nhật hồ sơ của bạn"
+      link_to_change: "Thay đổi"
+    form:
+      name: "Tên"
+      email: "Địa chỉ Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+    index:
+      title: "Tất cả người dùng"
+    user:
+      link_to_delete: "Xóa"
+      link_to_confirm: "Bạn có chắc chắn muốn xóa?"
   activerecord:
     errors:
       models:
@@ -60,6 +77,7 @@ vi:
               taken: "đã được sử dụng"
             password:
               blank: "Mật khẩu không thể để trống"
+              too_short: "Mật khẩu quá ngắn (tối thiểu là 6 ký tự)"
             password_confirmation:
               confirmation: "Xác nhận mật khẩu không khớp với Mật khẩu"
   sessions:
@@ -75,3 +93,13 @@ vi:
       new_user: "Người dùng mới?"
       sign_up: "Đăng ký tài khoản ngay bây giờ!"
       remember_me: "Lưu tài khoản trên máy tính"
+  logged_in_user:
+    danger: "Bạn chưa đăng nhập"
+  en:
+  views:
+    pagination:
+      first: "&laquo; Trang đầu"
+      last: "Trang cuối &raquo;"
+      previous: "&lsaquo; Trước đó"
+      next: "Kế tiếp &rsaquo;"
+      truncate: "&hellip;"
