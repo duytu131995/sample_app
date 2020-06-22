@@ -12,6 +12,7 @@ en:
   error: "error"
   profile: "Profile"
   settings: "Settings"
+  users_header: "Users"
   of_author:
     text: "The %{link1} by %{link2}"
     link1: "Ruby on Rails Tutorial"
@@ -35,16 +36,32 @@ en:
       count_error:
         text: "The form contains"
       title: "Sign up"
-      name: "Name"
-      email: "Email"
-      password: "Password"
-      password_confirmation: "Confirmation"
-      submit: "Create my account"
+      button_text: "Create my account"
     create:
       success: "Sign up successfully"
       danger: "Sign up failed"
     show:
       notice_id: "User does not exist"
+    update:
+      success: "Profile updated"
+      danger: "Update failed"
+    destroy:
+      success: "User deleted"
+      danger: "Delete failed"
+    edit:
+      button_text: "Save changes"
+      title: "Update your profile"
+      link_to_change: "Change"
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation"
+    index:
+      title: "All users"
+    user:
+      link_to_delete: "Delete"
+      link_to_confirm: "You sure?"
   activerecord:
     errors:
       models:
@@ -60,6 +77,7 @@ en:
               taken: "has already been taken"
             password:
               blank: "can't be blank"
+              too_short: "is too short (minimum is 6 characters)"
             password_confirmation:
               confirmation: "doesn't match Password"
   sessions:
@@ -75,3 +93,13 @@ en:
       new_user: "New user?"
       sign_up: "Sign up now!"
       remember_me: "Remember me on this computer"
+  logged_in_user:
+    danger: "Please log in"
+  en:
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "&hellip;"

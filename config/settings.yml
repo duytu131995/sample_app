@@ -4,5 +4,9 @@ user:
     maximum_length: 50
   email:
     maximum_length: 255
+  password:
+    minimum_length: 6
 gravatar:
   size: 80
+kaminari:
+  per: 20
