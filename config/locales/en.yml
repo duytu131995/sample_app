@@ -40,6 +40,7 @@ en:
     create:
       success: "Sign up successfully"
       danger: "Sign up failed"
+      info: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     show:
       notice_id: "User does not exist"
     update:
@@ -84,6 +85,7 @@ en:
     create:
       danger: "Invalid email/password combination"
       success: "Login successfully"
+      warning: "Account not activated. Check your email for the activation link."
     destroy:
       success: "Logout successfully"
     new:
@@ -103,3 +105,14 @@ en:
       previous: "&lsaquo; Prev"
       next: "Next &rsaquo;"
       truncate: "&hellip;"
+  user_mailer:
+    account_activation:
+      activate: "Activate"
+      title: "Sample app"
+      hi: "Hi "
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      subject: "Account activation"
+  account_activations:
+    edit:
+      success: "Account activated!"
+      danger: "Invalid activation link"
