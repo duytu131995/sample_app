@@ -10,3 +10,5 @@ gravatar:
   size: 80
 kaminari:
   per: 20
+password_reset_expired:
+  time: 2
