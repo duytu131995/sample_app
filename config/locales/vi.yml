@@ -40,6 +40,7 @@ vi:
     create:
       success: "Đăng ký thành công thành công"
       danger: "Đăng ký tài khoản thất bại"
+      info: ""
     show:
       notice_id: "Người dùng không tồn tại"
     update:
@@ -84,6 +85,7 @@ vi:
     create:
       danger: "Email hoặc mật khẩu không hợp lệ"
       success: "Đăng nhập thành công"
+      warning: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
     destroy:
       success: "Đăng xuất thành công"
     new:
@@ -103,3 +105,13 @@ vi:
       previous: "&lsaquo; Trước đó"
       next: "Kế tiếp &rsaquo;"
       truncate: "&hellip;"
+  user_mailer:
+    activate: "Kích hoạt"
+    title: "Ứng dụng mẫu"
+    hi: "Xin chào"
+    welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
+    subject: "Kích hoạt tài khoản"
+  account_activations:
+    edit:
+      success: "Tài khoản được kích hoạt!"
+      danger: "Liên kết kích hoạt không hợp lệ"
