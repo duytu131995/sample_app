@@ -1,4 +1,6 @@
 vi:
+  js:
+    size_image: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tập tin nhỏ hơn."
   hello: "Xin chào"
   en: "Tiếng anh"
   vi: "Tiếng việt"
@@ -25,6 +27,7 @@ vi:
       title: "Đây là trang chủ"
       welcome: "Chào mừng bạn đến với ứng dụng mẫu"
       alt_logo: "Rails logo"
+      micropost_feed: "Micropost Feed"
     help:
       title: "Đây là trang trợ giúp"
     contact:
@@ -43,6 +46,7 @@ vi:
       info: ""
     show:
       notice_id: "Người dùng không tồn tại"
+      title_micropost: "Micropost"
     update:
       success: "Hồ sơ cá nhân đã cập nhật"
       danger: "Cập nhật thất bại"
@@ -81,6 +85,13 @@ vi:
               too_short: "Mật khẩu quá ngắn (tối thiểu là 6 ký tự)"
             password_confirmation:
               confirmation: "Xác nhận mật khẩu không khớp với Mật khẩu"
+        micropost:
+          attributes:
+            user_id:
+              blank: "không thể bỏ trống"
+            content:
+              blank: "không thể bỏ trống"
+              too_long: "quá dài (tối đa là 140 ký tự)"
   sessions:
     create:
       danger: "Email hoặc mật khẩu không hợp lệ"
@@ -142,3 +153,22 @@ vi:
       button_text: "Gửi"
     check_expiration:
       danger: "Đặt lại mật khẩu đã hết hạn."
+  microposts:
+    micropost:
+      time: "Đăng %{link} trước"
+      delete: "Xóa"
+      confirm: "Bạn muốn xóa?"
+    create:
+      success: "Micropost đã tạo!"
+    destroy:
+      success: "Micropost đã xóa!"
+      danger: "Xóa thất bại"
+  micropost_image_content_type: "phải là một định dạng hình ảnh hợp lệ"
+  micropost_image_size: "nên dưới 5 MB"
+  shared:
+    user_info:
+      my_view_profile: "Hồ sơ của tôi"
+      count: "micropost"
+    micropost_form:
+      placeholder: "Soạn micropost mới ..."
+      submit: "Gửi"
