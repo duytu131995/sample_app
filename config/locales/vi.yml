@@ -95,9 +95,9 @@ vi:
       new_user: "Người dùng mới?"
       sign_up: "Đăng ký tài khoản ngay bây giờ!"
       remember_me: "Lưu tài khoản trên máy tính"
+      forgot_password: "(Quên mật khẩu)"
   logged_in_user:
     danger: "Bạn chưa đăng nhập"
-  en:
   views:
     pagination:
       first: "&laquo; Trang đầu"
@@ -106,12 +106,39 @@ vi:
       next: "Kế tiếp &rsaquo;"
       truncate: "&hellip;"
   user_mailer:
-    activate: "Kích hoạt"
-    title: "Ứng dụng mẫu"
-    hi: "Xin chào"
-    welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
-    subject: "Kích hoạt tài khoản"
+    account_activation:
+      activate: "Kích hoạt"
+      title: "Ứng dụng mẫu"
+      hi: "Xin chào"
+      welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
+      subject: "Kích hoạt tài khoản"
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      link: "Để đặt lại mật khẩu, hãy nhấp vào liên kết bên dưới:"
+      link_to: "Đặt lại mật khẩu"
+      time: "Liên kết này sẽ hết hạn sau hai giờ nữa."
+      text: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
+      subject: "Đặ lại mật khẩu"
   account_activations:
     edit:
       success: "Tài khoản được kích hoạt!"
       danger: "Liên kết kích hoạt không hợp lệ"
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      email: "Địa chỉ email"
+      button_text: "Gửi"
+    create:
+      info: "Đã gửi email hướng dẫn đặt lại mật khẩu"
+      danger: "Không tìm thấy địa chỉ email"
+    update:
+      success: "Password has been reset."
+      empty: "Không thể bỏ trống"
+      danger: "Xác nhận mật khẩu không khớp với Mật khẩu"
+    edit:
+      title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
+      button_text: "Gửi"
+    check_expiration:
+      danger: "Đặt lại mật khẩu đã hết hạn."
