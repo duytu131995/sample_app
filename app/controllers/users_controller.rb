@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @users = User.page(params[:page]).per Settings.kaminari.per
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.kaminari.micropost
+  end
 
   def new
     @user = User.new
@@ -63,14 +65,6 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit User::USER_PARAMS
-  end
-
-  def logged_in_user
-    return if logged_in
-
-    store_location
-    flash[:danger] = t "logged_in_user.danger"
-    redirect_to login_url
   end
 
   def correct_user

@@ -1,5 +1,7 @@
 en:
-  hello: "Hello world"
+  js:
+    size_image: "Maximum file size is 5MB. Please choose a smaller file."
+  hello: "Hello"
   en: "English"
   vi: "Vietnamese"
   base_title: "Ruby on Rails Tutorial Sample App"
@@ -25,6 +27,7 @@ en:
       title: "This is home page"
       welcome: "Welcome to the Sample App"
       alt_logo: "Rails logo"
+      micropost_feed: "Micropost Feed"
     help:
       title: "This is help page"
     contact:
@@ -43,6 +46,7 @@ en:
       info: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     show:
       notice_id: "User does not exist"
+      title_micropost: "Micropost"
     update:
       success: "Profile updated"
       danger: "Update failed"
@@ -81,6 +85,13 @@ en:
               too_short: "is too short (minimum is 6 characters)"
             password_confirmation:
               confirmation: "doesn't match Password"
+        micropost:
+          attributes:
+            user_id:
+              blank: "can't bt blank"
+            content:
+              blank: "can't be blank"
+              too_long: "is too long (maximum is 140 characters)"
   sessions:
     create:
       danger: "Invalid email/password combination"
@@ -142,3 +153,22 @@ en:
       button_text: "Submit"
     check_expiration:
       danger: "Password reset has expired."
+  microposts:
+    micropost:
+      time: "Posted %{link} ago"
+      delete: "delete"
+      confirm: "You sure?"
+    create:
+      success: "Micropost created!"
+    destroy:
+      success: "Micropost deleted!"
+      danger: "Delete failed"
+  micropost_image_content_type: "must be a valid image format"
+  micropost_image_size: "should be less than 5MB"
+  shared:
+    user_info:
+      my_view_profile: "My view profile"
+      count: "micropost"
+    micropost_form:
+      placeholder: "Compose new micropost..."
+      submit: "Submit"
