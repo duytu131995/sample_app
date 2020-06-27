@@ -43,7 +43,7 @@ vi:
     create:
       success: "Đăng ký thành công thành công"
       danger: "Đăng ký tài khoản thất bại"
-      info: ""
+      info: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     show:
       notice_id: "Người dùng không tồn tại"
       title_micropost: "Micropost"
@@ -67,6 +67,17 @@ vi:
     user:
       link_to_delete: "Xóa"
       link_to_confirm: "Bạn có chắc chắn muốn xóa?"
+    show_follow:
+      view_my_profile: "Hồ sơ của tôi"
+      micropost: "Microposts:"
+    follow:
+      submit: "Theo dõi"
+    unfollow:
+      submit: "Bỏ theo dõi"
+  following:
+    title: "Đang theo dõi"
+  followers:
+    title: "Người theo dõi"
   activerecord:
     errors:
       models:
@@ -172,3 +183,6 @@ vi:
     micropost_form:
       placeholder: "Soạn micropost mới ..."
       submit: "Gửi"
+    stats:
+      following: "Đang theo dõi"
+      followers: "Người theo dõi"
