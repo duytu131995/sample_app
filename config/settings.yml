@@ -9,6 +9,7 @@ user:
 gravatar:
   size: 80
   size_micropost: 50
+  show_follow_mini: 30
 kaminari:
   per: 20
   micropost: 10
@@ -26,3 +27,4 @@ micropost:
       in: ["image/jpeg", "image/gif", "image/png"]
 accept_image: "image/jpeg,image/gif,image/png"
 with_logo: "200px"
+follow: 50

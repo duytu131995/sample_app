@@ -43,7 +43,7 @@ en:
     create:
       success: "Sign up successfully"
       danger: "Sign up failed"
-      info: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+      info: "Please check your email to activate your account."
     show:
       notice_id: "User does not exist"
       title_micropost: "Micropost"
@@ -67,6 +67,17 @@ en:
     user:
       link_to_delete: "Delete"
       link_to_confirm: "You sure?"
+    show_follow:
+      view_my_profile: "view my profile"
+      micropost: "Microposts:"
+    follow:
+      submit: "Follow"
+    unfollow:
+      submit: "Unfollow"
+  following:
+    title: "Following"
+  followers:
+    title: "Followers"
   activerecord:
     errors:
       models:
@@ -172,3 +183,6 @@ en:
     micropost_form:
       placeholder: "Compose new micropost..."
       submit: "Submit"
+    stats:
+      following: "following"
+      followers: "followers"

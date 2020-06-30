@@ -55,14 +55,6 @@ class UsersController < ApplicationController
 
   private
 
-  def load_user
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    flash[:danger] = t ".notice_id"
-    redirect_to root_path
-  end
-
   def user_params
     params.require(:user).permit User::USER_PARAMS
   end

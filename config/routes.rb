@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'followers/index'
+  get 'following/index'
   scope "(:locale)", locale: /en|vi/ do
     root "static_pages#home"
 
@@ -11,9 +13,15 @@ Rails.application.routes.draw do
     get "/login", to: "sessions#new"
     post "/login", to: "sessions#create"
     delete "/logout", to: "sessions#destroy"
-    resources :users
+    resources :users do
+      member do
+        get :following, to: "following#index", as: "following"
+        get :followers, to: "followers#index", as: "followers"
+      end
+    end
     resources :account_activations, only: :edit
     resources :password_resets, except: %i(show index destroy)
     resources :microposts, only: %i(create destroy)
+    resources :relationships, only: %i(create destroy)
   end
 end
